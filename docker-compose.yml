@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  main:
+    image: agideo/ruby:2.3-d
+    volumes:
+      - ".:/app"
+      - "/Users/alvin/.ssh/id_rsa:/root/.ssh/id_rsa"
+    ports:
+      - "3000:3000"

@@ -1,0 +1,14 @@
+h1, p {
+  font-family: Lato;
+}
+
+button {
+  padding: 10px ;
+  margin: 5px;
+}
+
+#root{
+  padding: 20px;
+  border: 1px solid #eee;
+  text-align: center
+}
